@@ -1,0 +1,33 @@
+{
+  "nodes": [
+    {"id": "China", "group": 1,"size": 15},
+    {"id": "India", "group": 1, "size": 15},
+    {"id": "Vietnam", "group": 1, "size": 5},
+    {"id": "Pakistan", "group": 1, "size": 5},
+    {"id": "Cambodia", "group": 1,"size": 3},
+    {"id": "Sri Lanka", "group": 1,"size": 3},
+    {"id": "Thailand", "group": 1,"size": 5},
+    {"id": "South Korea", "group": 1,"size": 10},
+    {"id": "North Korea", "group": 1,"size": 1},
+    {"id": "Laos", "group": 1,"size": 1},
+    {"id": "Afghanistan", "group": 1,"size": 1},
+    {"id": "Japan", "group": 1,"size": 15},
+    {"id": "Technology Partner", "group": 2,"size":8},
+    {"id": "Export Manufacturer", "group": 2,"size":11},
+    {"id": "Agricultural Exporter", "group": 2,"size":7},
+    {"id": "Price Pressure", "group": 3,"size":5},
+    {"id": "Innovation", "group": 3,"size":5},
+    {"id": "Regulation", "group": 3,"size":5},
+    {"id": "Plateau", "group": 3,"size":5},
+    {"id": "Tariffs", "group": 3,"size":5},
+    {"id": "Export Competitor", "group": 3,"size":5}    
+  ],
+  "links": [
+    {"source": "China", "target": "Technology Partner", "value": 5},
+    {"source": "India", "target": "Technology Partner", "value": 5},
+    {"source": "China", "target": "Export Competitor", "value": 5},
+    {"source": "Vietnam", "target": "Export Competitor", "value": 5},
+    {"source": "Cambodia", "target": "Export Competitor", "value": 5},
+    {"source": "Sri Lanka", "target": "Export Competitor", "value": 5}
+  ]
+}

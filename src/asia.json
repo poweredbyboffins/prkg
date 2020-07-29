@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {"id": "China 2020", "group": 1,"size": 15},
+    {"id": "India 2020", "group": 1, "size": 15},
+    {"id": "China 2021 Q1", "group": 2,"size": 11},
+    {"id": "India 2021 Q1", "group": 2, "size": 11},
+    {"id": "China 2021 Q2", "group": 3,"size": 12},
+    {"id": "India 2021 Q2", "group": 3, "size": 12},
+    {"id": "Pakistan 2020", "group": 1, "size": 8},
+    {"id": "Pakistan 2021 Q1", "group": 2, "size": 8},
+    {"id": "Pakistan 2021 Q2", "group": 3, "size": 8}
+    
+     
+  ],
+  "links": [
+    {"source": "China 2020", "target": "India 2020", "value": 1,"label":"competitor"},
+    {"source": "China 2021 Q1", "target": "India 2021 Q1", "value": 2,"label":"competitor"},
+    {"source": "China 2021 Q2", "target": "India 2021 Q2", "value": 3,"label":"competitor"},
+    {"source": "China 2020", "target": "Pakistan 2020", "value": 4,"label":"partner"},
+    {"source": "China 2021 Q1", "target": "Pakistan 2021 Q1", "value": 5,"label":"partner"},
+    {"source": "China 2021 Q2", "target": "Pakistan 2021 Q2", "value": 6,"label":"partner"},
+    {"source": "India 2020", "target": "Pakistan 2020", "value": 7,"label":"rival"},
+    {"source": "India 2021 Q1", "target": "Pakistan 2021 Q1", "value": 8,"label":"rival"},
+    {"source": "India 2021 Q2", "target": "Pakistan 2021 Q2", "value": 9,"label":"rival"}
+  ]
+}
